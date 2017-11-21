@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ejemplo_MVP</string>
+    <string name="error_invalid_number">Numero Invalido</string>
+    <string name="button_sum">Suma</string>
+    <string name="button_Resta">Resta</string>
+    <string name="button_Div">Dividir</string>
+    <string name="button_Multi">Multiplicar</string>
+    <string name="button_Limpiar">Limpiar</string>
+</resources>
