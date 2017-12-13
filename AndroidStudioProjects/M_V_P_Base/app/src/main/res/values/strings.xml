@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">M_V_P_Base</string>
+    <string name="error_invalid_number">Numero invalido</string>
+    <string name="button_sum">+</string>
+    <string name="firstNumber">Number  1 :</string>
+    <string name="secondNumber">Number 2 :</string>
+    <string name="button_res">-</string>
+    <string name="button_div">/</string>
+    <string name="button_mult">*</string>
+    <string name="button_clean">clean</string>
+    <string name="error_invalid_number_divide">Bruto, no puedes dividir por 0</string>
+    <string name="product_id">Id.</string>
+    <string name="product_name">Name</string>
+    <string name="product_price">Price</string>
+    <string name="product_quantity">Quantity</string>
+    <string name="insert">Insert</string>
+    <string name="update">Update</string>
+    <string name="delete">DELETE</string>
+    <string name="ok_message">Éxito!!!!</string>
+</resources>

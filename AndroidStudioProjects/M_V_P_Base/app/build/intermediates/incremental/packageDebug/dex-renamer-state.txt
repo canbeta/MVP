@@ -1,0 +1,7 @@
+#Tue Dec 05 13:59:30 COT 2017
+base.0=C\:\\proyectos\\android\\M_V_P_Base\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_673982019ae6d99f951e3ae08ec2999089d0d40d
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\proyectos\\android\\M_V_P_Base\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d38c2f05a5ea218980637dc4eb29390a347499b4\\classes.dex
+base.1=C\:\\proyectos\\android\\M_V_P_Base\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d38c2f05a5ea218980637dc4eb29390a347499b4
+file.0=C\:\\proyectos\\android\\M_V_P_Base\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_673982019ae6d99f951e3ae08ec2999089d0d40d\\classes.dex
