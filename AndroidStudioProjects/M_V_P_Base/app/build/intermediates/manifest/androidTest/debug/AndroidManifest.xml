@@ -13,7 +13,7 @@
         android:label="Tests for com.claseetn.pablogarcia.m_v_p_base"
         android:targetPackage="com.claseetn.pablogarcia.m_v_p_base" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\proyectos\android\M_V_P_Base\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\proyectos\android\M_V_P_Base\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d38c2f05a5ea218980637dc4eb29390a347499b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pablo.garcia\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.2.0\959c454243581fdf730abfd4f4745441724bcf2c\okhttp-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="C:\proyectos\android\M_V_P_Base\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.2.0_88c982c79ff40fcc0a4f3cbbe3b5e2ae28c61509\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\proyectos\android\M_V_P_Base\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9910c755a84860d8d9af0c3520e0cd5ac2480715">
+        <dex dex="C:\proyectos\android\M_V_P_Base\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_673982019ae6d99f951e3ae08ec2999089d0d40d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pablo.garcia\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.2.0\c0b52915a48fa91b1b94a28d4a2997bac5f524df\okio-1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c0b52915a48fa91b1b94a28d4a2997bac5f524df">
+        <dex dex="C:\proyectos\android\M_V_P_Base\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.2.0_04a8944bd5157104cb868db8ec40c713bd3cf97e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pablo.garcia\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\proyectos\android\M_V_P_Base\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-1.9.0_f9f2e0c6f527f514167e392bab0d75c9e249afcd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pablo.garcia\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\2.2.0\cb20062e14c523637b7643295418097b48cccec2\okhttp-urlconnection-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cb20062e14c523637b7643295418097b48cccec2">
+        <dex dex="C:\proyectos\android\M_V_P_Base\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-urlconnection-2.2.0_6204ba6b3252647f37306ac4b11f8274aa43d8d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pablo.garcia\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\proyectos\android\M_V_P_Base\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_7dfae8b9e78d19cd59b074d05c769d401e32faf8\classes.dex" />
+    </item>
+
+</items>

@@ -7,7 +7,7 @@ import com.claseetn.pablogarcia.m_v_p_base.dto.Product;
 import java.util.ArrayList;
 
 /**
- * Created by pablo.garcia on 12/12/2017.
+ * Created by carlos betancur on 12/12/2017.
  */
 
 public class ProductDAOImpl extends DbContentProvider implements IProductDAO, IProductSheme{
