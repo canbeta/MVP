@@ -8,11 +8,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.claseetn.carlosbetancur.m_v_p_base.R;
+
 import com.claseetn.carlosbetancur.m_v_p_base.dto.Product;
+
 import com.claseetn.carlosbetancur.m_v_p_base.helper.Constants;
 import com.claseetn.carlosbetancur.m_v_p_base.presenter.UpdateProductPresenter;
 import com.claseetn.carlosbetancur.m_v_p_base.view.BaseActivity;
+import com.claseetn.carlosbetancur.m_v_p_base.R;
 
 public class UpdateActivity extends BaseActivity<UpdateProductPresenter> implements IUpdateProducView {
 

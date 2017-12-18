@@ -8,7 +8,7 @@ import android.util.Log;
 import com.claseetn.carlosbetancur.m_v_p_base.shemes.IProductScheme;
 
 /**
- * Created by pablo.garcia on 12/12/2017.
+ * Created by carlos andres betancur on 12/12/2017.
  */
 
 class DataBaseHelper extends SQLiteOpenHelper{

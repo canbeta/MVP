@@ -7,7 +7,7 @@ import com.claseetn.carlosbetancur.m_v_p_base.helper.ValidateInternet;
 import com.claseetn.carlosbetancur.m_v_p_base.view.IBaseView;
 
 /**
- * Created by pablo.garcia on 15/11/2017.
+ * Created by carlos andres betancuron 15/11/2017.
  */
 
 public class BasePresenter<T extends IBaseView> {

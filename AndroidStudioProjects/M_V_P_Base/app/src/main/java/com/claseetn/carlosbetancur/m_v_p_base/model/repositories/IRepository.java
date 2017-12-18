@@ -5,7 +5,7 @@ import com.claseetn.carlosbetancur.m_v_p_base.dto.Product;
 import java.util.ArrayList;
 
 /**
- * Created by pablo.garcia on 15/11/2017.
+ * Created by carlos andres betancur on 15/11/2017.
  */
 
 public interface IRepository {

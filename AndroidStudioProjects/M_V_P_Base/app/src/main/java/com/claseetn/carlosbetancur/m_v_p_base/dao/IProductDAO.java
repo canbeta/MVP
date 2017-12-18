@@ -1,18 +1,21 @@
 package com.claseetn.carlosbetancur.m_v_p_base.dao;
 
 
+import com.claseetn.carlosbetancur.m_v_p_base.dto.Product;
+
 import java.util.ArrayList;
 
 /**
- * Created by pablo.garcia on 12/12/2017.
+ * Created by carlos andres betancur on 12/12/2017.
  */
 
 public interface IProductDAO {
-    public ArrayList<com.claseetn.pablogarcia.m_v_p_base.dto.Product> getProducts();
 
-    Product insertProduct(Product product);
+    public ArrayList<Product> getProducts();
 
-    Product updateProduct(Product product);
+    boolean insertProduct(Product product);
 
-    Product deleteProduct(Product product);
+    boolean updateProduct(Product product);
+
+    boolean deleteProduct(Product product);
 }

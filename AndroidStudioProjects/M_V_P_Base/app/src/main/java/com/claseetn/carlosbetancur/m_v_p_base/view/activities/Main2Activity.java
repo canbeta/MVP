@@ -6,12 +6,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
-import com.claseetn.carlosbetancur.m_v_p_base.R;
 import com.claseetn.carlosbetancur.m_v_p_base.dto.Product;
 import com.claseetn.carlosbetancur.m_v_p_base.presenter.InsertProductPresenter;
 import com.claseetn.carlosbetancur.m_v_p_base.presenter.ProductPresenter;
 import com.claseetn.carlosbetancur.m_v_p_base.view.BaseActivity;
+import com.claseetn.carlosbetancur.m_v_p_base.R;
 
 public class Main2Activity extends BaseActivity<InsertProductPresenter> implements IInsertProductView {
 

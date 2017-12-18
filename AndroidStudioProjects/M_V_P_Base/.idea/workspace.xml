@@ -9,62 +9,390 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09b4264-6775-47be-b48a-7cee4487092b" name="Default" comment="Mejoras">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/providers/DbContentProvider.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/claseetn/pablogarcia/m_v_p_base/ExampleInstrumentedTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/dao/IProductDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/dao/ProductDAOImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/dto/Product.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/helper/Constants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/helper/DataBase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/helper/DataBaseHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/helper/IValidateInternet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/helper/ServicesFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/helper/TypeDecryption.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/helper/ValidateInternet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/model/repositories/IRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/model/repositories/Repository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/model/services/IServices.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/presenter/BasePresenter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/presenter/InsertProductPresenter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/presenter/ProductPresenter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/presenter/UpdateProductPresenter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/shemes/IProductScheme.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/view/BaseActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/view/IBaseView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/view/activities/IInsertProductView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/view/activities/IMainView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/view/activities/IProductView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/view/activities/IUpdateProducView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/view/activities/Main2Activity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/view/activities/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/view/activities/ProductsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/view/activities/UpdateActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/view/adapter/ProductAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/test/java/com/claseetn/pablogarcia/m_v_p_base/ExampleUnitTest.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_animated_vector_drawable_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_animated_vector_drawable_25_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_appcompat_v7_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_appcompat_v7_25_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_constraint_constraint_layout_1_0_0_alpha7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_constraint_constraint_layout_1_0_0_alpha7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_compat_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_compat_25_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_core_ui_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_core_ui_25_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_core_utils_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_core_utils_25_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_fragment_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_fragment_25_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_media_compat_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_media_compat_25_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_v4_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_v4_25_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_vector_drawable_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_vector_drawable_25_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_espresso_espresso_core_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_espresso_espresso_core_2_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_espresso_espresso_idling_resource_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_espresso_espresso_idling_resource_2_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_exposed_instrumentation_api_publish_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_exposed_instrumentation_api_publish_0_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_rules_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_rules_0_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_runner_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_test_runner_0_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="a09b4264-6775-47be-b48a-7cee4487092b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-12-13-13-33-03-721.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-12-13-13-33-09-408.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-12-13-13-33-03-721.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-12-13-13-33-09-408.rawproto" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az-rAZ/values-az-rAZ.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy-rAM/values-hy-rAM.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu-rES/values-eu-rES.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq-rAL/values-sq-rAL.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my-rMM/values-my-rMM.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml-rIN/values-ml-rIN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo-rLA/values-lo-rLA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu-rIN/values-gu-rIN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si-rLK/values-si-rLK.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn-rMN/values-mn-rMN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl-rES/values-gl-rES.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms-rMY/values-ms-rMY.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne-rNP/values-ne-rNP.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa-rIN/values-pa-rIN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr-rIN/values-mr-rIN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky-rKG/values-ky-rKG.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka-rGE/values-ka-rGE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te-rIN/values-te-rIN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be-rBY/values-be-rBY.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v13/values-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km-rKH/values-km-rKH.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs-rBA/values-bs-rBA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk-rKZ/values-kk-rKZ.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz-rUZ/values-uz-rUZ.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta-rIN/values-ta-rIN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et-rEE/values-et-rEE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v12/values-v12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur-rPK/values-ur-rPK.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn-rIN/values-kn-rIN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is-rIS/values-is-rIS.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bn-rBD/values-bn-rBD.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk-rMK/values-mk-rMK.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IMainView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IMainView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/Main2Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/Main2Activity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/view/BaseActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/view/BaseActivity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/view/activities/IInsertProductView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IInsertProductView.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/helper/Constants.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/helper/Constants.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter$2.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/UpdateActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/UpdateActivity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/pablogarcia/m_v_p_base/view/adapter/ProductAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/carlosbetancur/m_v_p_base/view/adapter/ProductAdapter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/ProductPresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/ProductPresenter$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/UpdateProductPresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/UpdateProductPresenter$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/helper/ServicesFactory.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/helper/ServicesFactory.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/R$id.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/R$attr.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/R$attr.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/pablogarcia/m_v_p_base/view/activities/IUpdateProducView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IUpdateProducView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/R$bool.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/R$bool.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/R$dimen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/R$dimen.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter$2.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/R$styleable.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/helper/ValidateInternet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/helper/ValidateInternet.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/UpdateProductPresenter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/UpdateProductPresenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/model/repositories/IRepository.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/model/repositories/IRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/output.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/R$drawable.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/model/services/IServices.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/model/services/IServices.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/presenter/UpdateProductPresenter$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/presenter/UpdateProductPresenter$2.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/claseetn/pablogarcia/m_v_p_base/test/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/claseetn/carlosbetancur/m_v_p_base/test/BuildConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/IProductView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IProductView.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/helper/ValidateInternet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/helper/ValidateInternet.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/view/BaseActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/view/BaseActivity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_9/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_9/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/R.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/view/activities/ProductsActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity$2.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/view/adapter/ProductAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/view/adapter/ProductAdapter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/pablogarcia/m_v_p_base/view/activities/ProductsActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/IMainView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IMainView.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/pablogarcia/m_v_p_base/view/activities/UpdateActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/carlosbetancur/m_v_p_base/view/activities/UpdateActivity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/view/IBaseView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/view/IBaseView.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/R$styleable.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/helper/ValidateInternet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/helper/ValidateInternet.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/helper/IValidateInternet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/helper/IValidateInternet.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/helper/IValidateInternet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/helper/IValidateInternet.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/IInsertProductView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IInsertProductView.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/helper/TypeDecryption.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/helper/TypeDecryption.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/helper/ServicesFactory.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/helper/ServicesFactory.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/presenter/InsertProductPresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/presenter/InsertProductPresenter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/helper/IValidateInternet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/helper/IValidateInternet.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/generated/source/r/androidTest/debug/com/claseetn/pablogarcia/m_v_p_base/test/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/androidTest/debug/com/claseetn/carlosbetancur/m_v_p_base/test/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_7/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_7/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/helper/TypeDecryption.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/helper/TypeDecryption.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/pablogarcia/m_v_p_base/view/activities/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/R$layout.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/helper/TypeDecryption.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/helper/TypeDecryption.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/InsertProductPresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/InsertProductPresenter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter$4.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/R.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/helper/Constants.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/helper/Constants.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/IInsertProductView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IInsertProductView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/TypeDecryption.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/TypeDecryption.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/pablogarcia/m_v_p_base/view/activities/IInsertProductView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IInsertProductView.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/ProductsActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/view/activities/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/R$style.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/pablogarcia/m_v_p_base/view/activities/IMainView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IMainView.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/UpdateProductPresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/UpdateProductPresenter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/R$styleable.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/view/activities/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/R$styleable.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/Main2Activity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/Main2Activity$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/R$style.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/IUpdateProducView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IUpdateProducView.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_3/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_3/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/UpdateActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/UpdateActivity$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/view/activities/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/R$anim.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/R$anim.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/R$string.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/model/repositories/IRepository.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/model/repositories/IRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/output.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/UpdateActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/UpdateActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/R$anim.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/R$anim.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/model/repositories/Repository.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/model/repositories/Repository.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/R$bool.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/R$bool.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/R$integer.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/R$attr.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/R$attr.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/view/IBaseView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/view/IBaseView.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/helper/Constants.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/helper/Constants.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/view/activities/Main2Activity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/view/activities/Main2Activity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter$3.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/BasePresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/BasePresenter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/view/adapter/ProductAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/view/adapter/ProductAdapter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/R$bool.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/R$bool.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter$3.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/pablogarcia/m_v_p_base/presenter/UpdateProductPresenter$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/carlosbetancur/m_v_p_base/presenter/UpdateProductPresenter$2.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/R$dimen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/R$dimen.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/BuildConfig.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/R$dimen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/R$dimen.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/presenter/UpdateProductPresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/presenter/UpdateProductPresenter$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/R$mipmap.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity$2.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/R$id.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/R$string.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/presenter/ProductPresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/presenter/ProductPresenter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/view/activities/ProductsActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_0/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_0/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/ProductsActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity$2.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/claseetn/pablogarcia/m_v_p_base/view/IBaseView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/claseetn/carlosbetancur/m_v_p_base/view/IBaseView.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/UpdateProductPresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/UpdateProductPresenter$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/view/IBaseView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/view/IBaseView.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/InsertProductPresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/InsertProductPresenter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/BuildConfig.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/InsertProductPresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/InsertProductPresenter$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/R$integer.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/pablogarcia/m_v_p_base/view/activities/ProductsActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity$2.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/claseetn/pablogarcia/m_v_p_base/dto/Product.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/claseetn/carlosbetancur/m_v_p_base/dto/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_6/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_6/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/pablogarcia/m_v_p_base/presenter/InsertProductPresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/carlosbetancur/m_v_p_base/presenter/InsertProductPresenter$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/pablogarcia/m_v_p_base/view/activities/ProductsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/helper/IValidateInternet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/helper/IValidateInternet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/dao/ProductDAOImpl.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/dao/ProductDAOImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter$2.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_productos.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_productos.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_update.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_update.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/androidTest/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/androidTest/debug/package-aware-r.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/helper/ServicesFactory.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/helper/ServicesFactory.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/model/services/IServices.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/model/services/IServices.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/R$style.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/presenter/UpdateProductPresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/presenter/UpdateProductPresenter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/Main2Activity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/Main2Activity$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/ProductsActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity$2.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IUpdateProducView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IUpdateProducView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/adapter/ProductAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/adapter/ProductAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/R$bool.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/R$bool.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/helper/ServicesFactory.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/helper/ServicesFactory.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/view/adapter/ProductAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/view/adapter/ProductAdapter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/ProductPresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/ProductPresenter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/view/activities/IMainView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IMainView.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_8/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_8/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/R$drawable.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/R$color.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/R$color.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/view/activities/ProductsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/R$style.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/ProductsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/ProductPresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/ProductPresenter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/UpdateActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/UpdateActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter$3.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/claseetn/pablogarcia/m_v_p_base/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/claseetn/carlosbetancur/m_v_p_base/R.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/pablogarcia/m_v_p_base/view/activities/Main2Activity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/carlosbetancur/m_v_p_base/view/activities/Main2Activity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/pablogarcia/m_v_p_base/view/activities/Main2Activity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/carlosbetancur/m_v_p_base/view/activities/Main2Activity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/InsertProductPresenter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/InsertProductPresenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/pablogarcia/m_v_p_base/view/activities/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity$2.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/R$anim.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/R$anim.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/IProductView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IProductView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/R$string.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/BuildConfig.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/Main2Activity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/Main2Activity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/view/activities/UpdateActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/view/activities/UpdateActivity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/helper/ValidateInternet.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/helper/ValidateInternet.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/BasePresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/BasePresenter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/UpdateActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/UpdateActivity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/R$attr.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/R$attr.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/model/repositories/IRepository.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/model/repositories/IRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/providers/DbContentProvider.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/providers/DbContentProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/dao/IProductDAO.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/dao/IProductDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/claseetn/pablogarcia/m_v_p_base/model/services/IServices.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/claseetn/carlosbetancur/m_v_p_base/model/services/IServices.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/dto/Product.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/dto/Product.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/claseetn/pablogarcia/m_v_p_base/view/BaseActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/claseetn/carlosbetancur/m_v_p_base/view/BaseActivity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/UpdateProductPresenter$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/UpdateProductPresenter$2.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/helper/ServicesFactory$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/helper/ServicesFactory$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/helper/TypeDecryption.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/helper/TypeDecryption.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/view/BaseActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/view/BaseActivity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/pablogarcia/m_v_p_base/presenter/BasePresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/carlosbetancur/m_v_p_base/presenter/BasePresenter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/pablogarcia/m_v_p_base/presenter/ProductPresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/carlosbetancur/m_v_p_base/presenter/ProductPresenter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/pablogarcia/m_v_p_base/view/activities/UpdateActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/carlosbetancur/m_v_p_base/view/activities/UpdateActivity$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/helper/ServicesFactory$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/helper/ServicesFactory$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_4/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_4/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/R$string.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/R$color.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/presenter/InsertProductPresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/presenter/InsertProductPresenter$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/R$layout.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/pablogarcia/m_v_p_base/presenter/InsertProductPresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/carlosbetancur/m_v_p_base/presenter/InsertProductPresenter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/Main2Activity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/Main2Activity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/view/activities/Main2Activity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/view/activities/Main2Activity$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/helper/Constants.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/helper/Constants.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/claseetn/pablogarcia/m_v_p_base/model/repositories/Repository.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/claseetn/carlosbetancur/m_v_p_base/model/repositories/Repository.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/view/activities/UpdateActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/view/activities/UpdateActivity$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/helper/ServicesFactory$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/helper/ServicesFactory$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/BaseActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/BaseActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/ProductPresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/ProductPresenter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/Constants.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/R$attr.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/R$drawable.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/helper/ServicesFactory$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/helper/ServicesFactory$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/androidTest/debug/resources-debugAndroidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/androidTest/debug/resources-debugAndroidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/DataBase.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/DataBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/claseetn/pablogarcia/m_v_p_base/model/repositories/IRepository.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/claseetn/carlosbetancur/m_v_p_base/model/repositories/IRepository.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/R$mipmap.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/UpdateProductPresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/UpdateProductPresenter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/claseetn/pablogarcia/m_v_p_base/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/claseetn/carlosbetancur/m_v_p_base/BuildConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/IUpdateProducView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IUpdateProducView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/shemes/IProductScheme.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/shemes/IProductScheme.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/model/services/IServices.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/model/services/IServices.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/UpdateProductPresenter$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/UpdateProductPresenter$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_2/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_2/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/R$dimen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/R$dimen.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/view/activities/IProductView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IProductView.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_5/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_5/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/pablogarcia/m_v_p_base/presenter/ProductPresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/carlosbetancur/m_v_p_base/presenter/ProductPresenter$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/pablogarcia/m_v_p_base/presenter/UpdateProductPresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/carlosbetancur/m_v_p_base/presenter/UpdateProductPresenter$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/ProductsActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/dependencies/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/dependencies/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/view/activities/IUpdateProducView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IUpdateProducView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/output.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/model/repositories/Repository.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/model/repositories/Repository.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/pablogarcia/m_v_p_base/view/activities/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/IMainView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IMainView.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/R.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/BuildConfig.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/R$anim.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/R$anim.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/R$color.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/ProductPresenter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/ProductPresenter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/pablogarcia/m_v_p_base/view/activities/IProductView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IProductView.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/presenter/ProductPresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/presenter/ProductPresenter$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/MainPresenter$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter$4.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/dto/Product.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/dto/Product.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/presenter/BasePresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/presenter/BasePresenter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/presenter/InsertProductPresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/presenter/InsertProductPresenter$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/pablogarcia/m_v_p_base/presenter/UpdateProductPresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/claseetn/carlosbetancur/m_v_p_base/presenter/UpdateProductPresenter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/pablogarcia/m_v_p_base/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/claseetn/carlosbetancur/m_v_p_base/R$layout.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/model/repositories/Repository.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/model/repositories/Repository.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/pablogarcia/m_v_p_base/dto/Product.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/claseetn/carlosbetancur/m_v_p_base/dto/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_1/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/slice_1/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/pablogarcia/m_v_p_base/view/activities/ProductsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/pablogarcia/m_v_p_base/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/claseetn/carlosbetancur/m_v_p_base/R$id.class" />
     </list>
     <ignored path="M_V_P_Base.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,31 +427,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DbContentProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/providers/DbContentProvider.java">
+      <file leaf-file-name="ProductDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/dao/ProductDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IProductScheme.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/shemes/IProductScheme.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IInsertProductView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IInsertProductView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="315">
+              <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,79 +439,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IMainView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IMainView.java">
+      <file leaf-file-name="IProductDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/dao/IProductDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IProductView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IProductView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IUpdateProducView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IUpdateProducView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main2Activity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/Main2Activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductsActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpdateActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/UpdateActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2278,9 +2518,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/view/activities/IUpdateProducView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/view/activities/Main2Activity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/dto/Product.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/view/activities/UpdateActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/model/repositories/IRepository.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/view/activities/ProductsActivity.java" />
@@ -2293,31 +2530,14 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/shemes/IProductScheme.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/helper/DataBaseHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/dao/ProductDAOImpl.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/providers/DbContentProvider.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/dao/ProductDAOImpl.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/dao/IProductDAO.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/dto/Product.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/Constants.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/DataBase.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/IValidateInternet.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/TypeDecryption.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/ValidateInternet.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/model/repositories/IRepository.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/model/repositories/Repository.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/model/services/IServices.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/BasePresenter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/InsertProductPresenter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/UpdateProductPresenter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/shemes/IProductScheme.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IMainView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IUpdateProducView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/UpdateActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/IBaseView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/BaseActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/Main2Activity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IProductView.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/claseetn/carlosbetancur/m_v_p_base/ExampleUnitTest.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
@@ -2328,7 +2548,27 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IInsertProductView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/DataBaseHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/ServicesFactory.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/java/awt/image/renderable/ParameterBlock.class" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/Constants.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/UpdateActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/adapter/ProductAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/Main2Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/InsertProductPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/TypeDecryption.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/DataBase.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IUpdateProducView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IMainView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/BaseActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/ProductPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/UpdateProductPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/shemes/IProductScheme.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/providers/DbContentProvider.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/dao/IProductDAO.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/dao/ProductDAOImpl.java" />
       </list>
     </option>
   </component>
@@ -2353,7 +2593,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2397,8 +2639,26 @@
               <option name="myItemId" value="m_v_p_base" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
+              <option name="myItemId" value="M_V_P_Base" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="m_v_p_base" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="providers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2420,37 +2680,13 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="M_V_P_Base" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m_v_p_base" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2459,6 +2695,7 @@
     <property name="device.picker.selection" value="Nexus_4_API_25" />
     <property name="VectorAssetImportPath" value="C:\proyectos\android" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+    <property name="SearchEverywhereHistoryKey" value="pablo&#9;PSI&#9;JAVA://java.awt.image.renderable.ParameterBlock" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -2564,7 +2801,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513189668359" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513633209054" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2612,7 +2849,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513189668359" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513633209054" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2774,7 +3011,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513189668360" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513633209056" />
       </method>
     </configuration>
     <list size="1">
@@ -2802,6 +3039,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a09b4264-6775-47be-b48a-7cee4487092b" name="Default" comment="" />
@@ -2817,7 +3057,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513177535415</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mejoras">
+      <created>1513189699297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1513189699297</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2831,6 +3078,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32328308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2840,14 +3088,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2847571" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26180258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26180258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2917,155 +3165,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/Main2Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/UpdateActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/claseetn/pablogarcia/m_v_p_base/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/dao/IProductDAO.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/helper/DataBase.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/dao/ProductDAOImpl.java" />
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/claseetn/pablogarcia/m_v_p_base/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/dao/IProductDAO.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/helper/DataBase.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/pablogarcia/m_v_p_base/dao/ProductDAOImpl.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/DataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/IBaseView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/claseetn/carlosbetancur/m_v_p_base/ExampleUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_product_item.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_face_black_24dp.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_update.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_productos.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/logoempanada.jpg">
@@ -3073,101 +3177,44 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_face_black_24dp.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-847">
+          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_productos.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/claseetn/carlosbetancur/m_v_p_base/ExampleInstrumentedTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/dao/IProductDAO.java">
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/claseetn/carlosbetancur/m_v_p_base/ExampleUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/dao/ProductDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="112" lean-forward="false" selection-start-line="13" selection-start-column="112" selection-end-line="13" selection-end-column="112" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/dto/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/DataBaseHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/IValidateInternet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/ServicesFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/TypeDecryption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/ValidateInternet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -3176,110 +3223,153 @@
         <state relative-caret-position="90">
           <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/model/repositories/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="120">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/model/services/IServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/BasePresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/InsertProductPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/ProductPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/UpdateProductPresenter.java">
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/providers/DbContentProvider.java">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/java/awt/image/renderable/ParameterBlock.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1194">
+          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
+          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/shemes/IProductScheme.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_update.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/IBaseView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/adapter/ProductAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="60" column="65" lean-forward="false" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/UpdateActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="28" lean-forward="false" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/Main2Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IInsertProductView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IMainView.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -3287,54 +3377,207 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IUpdateProducView.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/BasePresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/model/services/IServices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/Main2Activity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/ServicesFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/TypeDecryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/ValidateInternet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/dto/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/InsertProductPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/MainPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1200">
+          <caret line="104" column="27" lean-forward="false" selection-start-line="104" selection-start-column="27" selection-end-line="104" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/IValidateInternet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/helper/DataBaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/ProductsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="225">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-818">
+          <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IUpdateProducView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/IMainView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/ProductPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1513192852465" expanded="false" signature="625:635" ph=" { " />
+            <marker date="1513192852465" expanded="false" signature="670:676" ph=" }" />
+            <marker date="1513192852465" expanded="false" signature="730:740" ph=" { " />
+            <marker date="1513192852465" expanded="false" signature="769:775" ph=" }" />
+            <marker date="1513192852465" expanded="false" signature="844:931" ph="(Runnable) () → { " />
+            <marker date="1513192852465" expanded="false" signature="958:982" ph=" }" />
+            <marker date="1513192852465" expanded="false" signature="1307:1336" ph="&quot;Numero invalido&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/presenter/UpdateProductPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1513192852444" expanded="false" signature="699:709" ph=" { " />
+            <marker date="1513192852444" expanded="false" signature="744:750" ph=" }" />
+            <marker date="1513192852444" expanded="false" signature="809:819" ph=" { " />
+            <marker date="1513192852444" expanded="false" signature="848:854" ph=" }" />
+            <marker date="1513192852444" expanded="false" signature="943:1013" ph="(Runnable) () → {" />
+            <marker date="1513192852444" expanded="false" signature="1073:1088" ph="}" />
+            <marker date="1513192852444" expanded="false" signature="1406:1435" ph="&quot;Numero invalido&quot;" />
+            <marker date="1513192852444" expanded="false" signature="1544:1614" ph="(Runnable) () → {" />
+            <marker date="1513192852444" expanded="false" signature="1674:1689" ph="}" />
+            <marker date="1513192852444" expanded="false" signature="2008:2037" ph="&quot;Numero invalido&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_product_item.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/shemes/IProductScheme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/providers/DbContentProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/dao/ProductDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/view/activities/UpdateActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/claseetn/carlosbetancur/m_v_p_base/dao/IProductDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="120">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

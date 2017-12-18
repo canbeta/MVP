@@ -1,4 +1,4 @@
-package com.claseetn.pablogarcia.m_v_p_base.view.adapter;
+package com.claseetn.carlosbetancur.m_v_p_base.view.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,14 +11,14 @@ import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.claseetn.pablogarcia.m_v_p_base.R;
-import com.claseetn.pablogarcia.m_v_p_base.dto.Product;
+import com.claseetn.carlosbetancur.m_v_p_base.dto.Product;
+import com.claseetn.carlosbetancur.m_v_p_base.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by pablo.garcia on 21/11/2017.
+ * Created by carlos andres betancur on 21/11/2017.
  */
 
 public class ProductAdapter extends ArrayAdapter {

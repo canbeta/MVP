@@ -1,7 +1,7 @@
-package com.claseetn.carlosbetancur.a.m_v_p_base.helper;
+package com.claseetn.carlosbetancur.m_v_p_base.helper;
 
 /**
- * Created by pablo.garcia on 22/11/2017.
+ * Created by carlos andres betancur on 22/11/2017.
  */
 
 public class Constants {

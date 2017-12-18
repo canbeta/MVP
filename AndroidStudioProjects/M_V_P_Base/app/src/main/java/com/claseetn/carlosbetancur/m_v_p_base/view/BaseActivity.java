@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.claseetn.carlosbetancur.m_v_p_base.presenter.BasePresenter;
 
 /**
- * Created by pablo.garcia on 15/11/2017.
+ * Created by carlos andres betancur on 15/11/2017.
  */
 
 public class BaseActivity<T extends BasePresenter> extends AppCompatActivity implements IBaseView {

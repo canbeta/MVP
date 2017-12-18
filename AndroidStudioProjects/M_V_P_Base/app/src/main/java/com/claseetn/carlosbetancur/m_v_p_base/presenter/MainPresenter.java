@@ -1,12 +1,12 @@
 package com.claseetn.carlosbetancur.m_v_p_base.presenter;
 
-import com.claseetn.carlosbetancur.m_v_p_base.R;
 import com.claseetn.carlosbetancur.m_v_p_base.model.repositories.IRepository;
 import com.claseetn.carlosbetancur.m_v_p_base.model.repositories.Repository;
 import com.claseetn.carlosbetancur.m_v_p_base.view.activities.IMainView;
+import com.claseetn.carlosbetancur.m_v_p_base.R;
 
 /**
- * Created by pablo.garcia on 15/11/2017.
+ * Created by carlos andres betancur on 15/11/2017.
  */
 
 public class MainPresenter extends BasePresenter<IMainView> {

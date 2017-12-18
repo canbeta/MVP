@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 
 /**
- * Created by pablo.garcia on 21/11/2017.
+ * Created by carlos andres betancur on 21/11/2017.
  */
 
 public class Product implements Serializable{

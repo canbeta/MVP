@@ -5,7 +5,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
 /**
- * Created by pablo.garcia on 16/11/2017.
+ * Created by carlos andres betancur on 16/11/2017.
  */
 
 public class ValidateInternet implements IValidateInternet{

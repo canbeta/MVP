@@ -1,14 +1,15 @@
 package com.claseetn.carlosbetancur.m_v_p_base.presenter;
 
-import com.claseetn.carlosbetancur.m_v_p_base.R;
+
 import com.claseetn.carlosbetancur.m_v_p_base.dto.Product;
 import com.claseetn.carlosbetancur.m_v_p_base.model.repositories.IRepository;
 import com.claseetn.carlosbetancur.m_v_p_base.model.repositories.Repository;
 import com.claseetn.carlosbetancur.m_v_p_base.view.activities.IInsertProductView;
 import com.claseetn.carlosbetancur.m_v_p_base.view.activities.IUpdateProducView;
+import com.claseetn.carlosbetancur.m_v_p_base.R;
 
 /**
- * Created by pablo.garcia on 21/11/2017.
+ * Created by carlos andres betancur on 21/11/2017.
  */
 
 public class UpdateProductPresenter extends BasePresenter<IUpdateProducView>{

@@ -5,10 +5,10 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
-import com.claseetn.pablogarcia.m_v_p_base.dao.ProductDAOImpl;
+import com.claseetn.carlosbetancur.m_v_p_base.dao.ProductDAOImpl;
 
 /**
- * Created by pablo.garcia on 12/12/2017.
+ * Created by carlos andres betancur on 12/12/2017.
  */
 
 public class DataBase {

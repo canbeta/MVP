@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.claseetn.pablogarcia.m_v_p_base.test" >
+    package="com.claseetn.carlosbetancur.m_v_p_base.test" >
 
     <uses-sdk
         android:minSdkVersion="22"
@@ -10,8 +10,8 @@
         android:name="android.support.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.claseetn.pablogarcia.m_v_p_base"
-        android:targetPackage="com.claseetn.pablogarcia.m_v_p_base" />
+        android:label="Tests for com.claseetn.carlosbetancur.m_v_p_base"
+        android:targetPackage="com.claseetn.carlosbetancur.m_v_p_base" />
 
     <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />

@@ -2,23 +2,21 @@ package com.claseetn.carlosbetancur.m_v_p_base.view.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.SyncStateContract;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.claseetn.carlosbetancur.m_v_p_base.helper.Constants;
-import com.claseetn.carlosbetancur.m_v_p_base.R;
 import com.claseetn.carlosbetancur.m_v_p_base.dto.Product;
-import com.claseetn.carlosbetancur.m_v_p_base.presenter.MainPresenter;
 import com.claseetn.carlosbetancur.m_v_p_base.presenter.ProductPresenter;
 import com.claseetn.carlosbetancur.m_v_p_base.view.BaseActivity;
 import com.claseetn.carlosbetancur.m_v_p_base.view.adapter.ProductAdapter;
+import com.claseetn.carlosbetancur.m_v_p_base.R;
 
 import java.util.ArrayList;
 
 /**
- * Created by pablo.garcia on 16/11/2017.
+ * Created by carlos andres betancur on 16/11/2017.
  */
 
 public class ProductsActivity extends BaseActivity<ProductPresenter> implements IProductView {

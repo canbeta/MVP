@@ -8,13 +8,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.claseetn.carlosbetancur.m_v_p_base.R;
 import com.claseetn.carlosbetancur.m_v_p_base.presenter.MainPresenter;
 import com.claseetn.carlosbetancur.m_v_p_base.view.BaseActivity;
+import com.claseetn.carlosbetancur.m_v_p_base.R;
 
 /**
- * Created by pablo.garcia on 15/11/2017.
+ * Created by carlos andres betancur on 15/11/2017.
  */
 
 public class MainActivity extends BaseActivity<MainPresenter> implements IMainView, TextWatcher{
